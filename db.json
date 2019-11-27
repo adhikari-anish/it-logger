@@ -1,25 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed hard drive on workstation 001",
-      "attention": false,
-      "date": "01-05-2019",
-      "tech": "Anish Adhikari"
-    },
-    {
-      "id": 2,
-      "message": "Workstation 005 not posting",
+      "message": "No power at main station",
       "attention": true,
-      "date": "04-02-2019",
-      "tech": "Will Smith"
+      "date": "2019-11-27T03:47:39.026Z",
+      "tech": "Jane Doe",
+      "id": 3
     },
     {
-      "id": 3,
-      "message": "Changed memory on workstation 050",
+      "id": 4,
+      "message": "005 server running",
       "attention": false,
-      "date": "04-02-2019",
-      "tech": "Jane Doe"
+      "tech": "Anish Adhikari",
+      "date": "2019-11-27T08:18:24.745Z"
     }
   ],
   "techs": [
