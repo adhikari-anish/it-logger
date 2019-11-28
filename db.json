@@ -1,18 +1,46 @@
 {
   "logs": [
     {
-      "message": "No power at main station",
-      "attention": true,
-      "date": "2019-11-27T03:47:39.026Z",
-      "tech": "Jane Doe",
-      "id": 3
-    },
-    {
       "id": 4,
       "message": "005 server running",
       "attention": false,
+      "tech": "Will Smith",
+      "date": "2019-11-28T05:43:10.358Z"
+    },
+    {
+      "message": "Anish's room monitor not working",
+      "attention": true,
+      "date": "2019-11-28T05:25:07.151Z",
+      "tech": "Will Smith",
+      "id": 6
+    },
+    {
+      "message": "getting techs not working ",
+      "attention": true,
+      "date": "2019-11-28T05:32:31.730Z",
       "tech": "Anish Adhikari",
-      "date": "2019-11-27T08:18:24.745Z"
+      "id": 7
+    },
+    {
+      "message": "why???",
+      "attention": true,
+      "date": "2019-11-28T05:45:12.673Z",
+      "tech": "Burce Williams",
+      "id": 8
+    },
+    {
+      "message": "sdafsd",
+      "attention": false,
+      "date": "2019-11-28T05:52:34.285Z",
+      "tech": "Anish Adhikari",
+      "id": 9
+    },
+    {
+      "message": "uyiiyu",
+      "attention": false,
+      "date": "2019-11-28T05:53:27.696Z",
+      "tech": "Jane Doe",
+      "id": 10
     }
   ],
   "techs": [
@@ -30,6 +58,11 @@
       "id": 3,
       "firstName": "Jane",
       "lastName": "Doe"
+    },
+    {
+      "firstName": "Burce",
+      "lastName": "Williams",
+      "id": 4
     }
   ]
 }
