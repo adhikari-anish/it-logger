@@ -10,25 +10,10 @@ import {
   SEARCH_LOGS
 } from "./types";
 
-// export const getLogs = () => {
-//   return async (dispatch) => {
-//     setLoading();
-
-//     const res = await fetch('/logs');
-//     const data = await res.json();
-
-//     dispatch({
-//       type: GET_LOGS,
-//       payload: data
-//     })
-
-//   }
-// };
-
 // Get logs from server
 export const getLogs = () => async dispatch => {
   try {
-    dispatch(setLoading());
+    // dispatch(setLoading());
 
     const res = await fetch("/logs");
     const data = await res.json();
@@ -48,7 +33,7 @@ export const getLogs = () => async dispatch => {
 // Add logs to server
 export const addLog = log => async dispatch => {
   try {
-    dispatch(setLoading());
+    // dispatch(setLoading());
 
     const res = await fetch("/logs", {
       method: "POST",
@@ -75,7 +60,7 @@ export const addLog = log => async dispatch => {
 // Delete log from server
 export const deleteLog = id => async dispatch => {
   try {
-    dispatch(setLoading());
+    // dispatch(setLoading());
 
     await fetch(`/logs/${id}`, {
       method: "DELETE"

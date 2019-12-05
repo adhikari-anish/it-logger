@@ -20,34 +20,6 @@
       "date": "2019-11-28T05:32:31.730Z",
       "tech": "Anish Adhikari",
       "id": 7
-    },
-    {
-      "message": "why???",
-      "attention": true,
-      "date": "2019-11-28T05:45:12.673Z",
-      "tech": "Burce Williams",
-      "id": 8
-    },
-    {
-      "message": "sdafsd",
-      "attention": false,
-      "date": "2019-11-28T05:52:34.285Z",
-      "tech": "Anish Adhikari",
-      "id": 9
-    },
-    {
-      "message": "uyiiyu",
-      "attention": false,
-      "date": "2019-11-28T05:53:27.696Z",
-      "tech": "Jane Doe",
-      "id": 10
-    },
-    {
-      "message": "fdasdfasdf",
-      "attention": true,
-      "date": "2019-12-05T03:32:48.165Z",
-      "tech": "Anish Adhikari",
-      "id": 11
     }
   ],
   "techs": [
